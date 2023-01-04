@@ -41,20 +41,30 @@ html {
     margin: 0;
     color: white;
     padding-top: 2%;
+    -webkit-transition: all 0.3s ease;
+    transition-timing-function: ease;
   }
   
   .card .card-title:hover {
     text-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.5);
-    color: hotpink
+    font-size: 44px;
+    color: hotpink;
+    -webkit-transition: all 0.3s ease;
+    transition-timing-function: ease;
   }
 
   .card .card-location {
     color: white;
+    -webkit-transition: all 0.3s ease;
+    transition-timing-function: ease;
   }
 
   .card .card-location:hover {
     text-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.5);
-    color: hotpink
+    font-size: 23px;
+    color: hotpink;
+    -webkit-transition: all 0.3s ease;
+    transition-timing-function: ease;
   }
 
   a {
